@@ -1,15 +1,8 @@
-#/usr/bin/python3
-import _thread
 import time
 from time import sleep
 import math
 import numpy
 import csv
-
-# XBEE S3B
-from digi.xbee.devices import XBeeDevice
-from digi.xbee.devices import RemoteXBeeDevice
-from digi.xbee.models.address import XBee64BitAddress
 
 # BMP280
 from bmp280 import BMP280
