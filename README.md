@@ -8,7 +8,36 @@ This includes the initial configuration of all sensors and their respective code
 
 ## Installation
 
-Clone the latest stable version:
+To clone the latest stable version:
 
 	git clone https://github.com/ECisneros20/Cansat-2022.git
 
+To clone the latest version:
+
+	git clone -b testing https://github.com/ECisneros20/Cansat-2022.git
+
+## Usage
+
+First, you must have all the prerequisite libraries:
+
+	pip install requirements.txt
+
+Then, run the following script to the container computer:
+
+	python3 container.py
+
+Finally, run the following script to the payload computer:
+
+	python3 payload.py
+
+## Next steps
+
+1. Include a requirements.txt file with all the modules necessary for the operation of the scripts.
+
+2. Include the capabilities of communication with radio modules between container-payload and container-groun station.
+
+3. Include a changelog file
+
+## License
+
+MIT License
