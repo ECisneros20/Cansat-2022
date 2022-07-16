@@ -24,11 +24,11 @@ First, you must have all the prerequisite libraries:
 
 Then, run the following script to the container computer:
 
-	python3 container.py
+	python container.py
 
 Finally, run the following script to the payload computer:
 
-	python3 payload.py
+	python payload.py
 
 ## Next steps
 
