@@ -15,8 +15,6 @@ from imusensor.MPU9250 import MPU9250
 from ina219 import INA219
 from ina219 import DeviceRangeError
 
-# MG90S / 2N7000
-import RPi.GPIO as GPIO
 
 try:
     telemetry = "OFF"
