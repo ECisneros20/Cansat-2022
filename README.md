@@ -30,6 +30,12 @@ Finally, run the following script to the payload computer:
 
 	python payload.py
 
+In case, you want to check programming functionality without sensors usage:
+
+	python container-no-sensors.py
+
+	python payload-no-sensors.py
+
 ## Next steps
 
 1. Include a requirements.txt file with all the modules necessary for the operation of the scripts.
