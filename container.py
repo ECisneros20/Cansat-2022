@@ -3,12 +3,12 @@ import datetime as dt
 import csv
 
 # BMP280
-from bmp280 import BMP280
+from sensors.bmp280 import BMP280
 from smbus import SMBus
 
 # INA219
-from ina219 import INA219
-from ina219 import DeviceRangeError
+from sensors.ina219 import INA219
+from sensors.ina219 import DeviceRangeError
 
 # NEOM8N
 import pigpio
@@ -43,7 +43,7 @@ st = 0
 # Initialize BMP280
 bus = SMBus(1)
 bmp280 = BMP280(i2c_dev=bus)
-pressure_ground_level = 1013.25 # hPa ACTUALIZAR
+pressure_ground_level = 1013.25 # hPa
 altitude_zero = 100 # m
 
 # Initialize INA219
@@ -155,3 +155,4 @@ if __name__ == "__main__":
         MESSAGE = str(TEAM_ID) + ',' + str(MISSION_TIME) + ',' + str(PACKET_COUNT) + ',' + str(PACKET_TYPE) + ',' + str(MODE) + ',' + str(TP_RELEASED) + ',' + str(ALTITUDE) + ',' + str(TEMP) + ',' + str(VOLTAGE) + ',' + str(GPS_TIME) + ',' + str(GPS_LATITUDE) + ',' + str(GPS_LONGITUDE) + ',' + str(GPS_ALTITUDE) + ',' + str(GPS_SATS) + ',' + str(SOFTWARE_STATE) + ',' + str(CMD_ECHO)
         save_csv(MESSAGE)
         PACKET_COUNT += 1
+        
