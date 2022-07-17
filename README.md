@@ -36,8 +36,6 @@ Finally, run the following script to the payload computer:
 
 2. Include the capabilities of communication with radio modules between container-payload and container-groun station.
 
-3. Include a changelog file
-
 ## License
 
 MIT License
