@@ -20,7 +20,7 @@ To clone the latest version:
 
 First, you must have all the prerequisite libraries:
 
-	pip install requirements.txt
+	pip install -r requirements.txt
 
 Then, run the following script to the container computer:
 
