@@ -5,6 +5,7 @@ Changelog for cansat programming
 0.0.4 (2022-07-18)
 ------------------
 * Update the container.py script
+* Update the payload.py script
 * Add requirements.txt
 
 0.0.3 (2022-07-17)
