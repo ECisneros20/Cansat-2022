@@ -5,12 +5,12 @@ import numpy as np
 import csv
 
 # BMP280
-from sensors.bmp280 import BMP280
+from bmp280 import BMP280
 from smbus import SMBus
 
 # INA219
-from sensors.ina219 import INA219
-from sensors.ina219 import DeviceRangeError
+from ina219 import INA219
+from ina219 import DeviceRangeError
 
 # MPU9250
 from imusensor.MPU9250 import MPU9250
