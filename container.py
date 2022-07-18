@@ -3,12 +3,12 @@ import datetime as dt
 import csv
 
 # BMP280
-from sensors.bmp280 import BMP280
+from bmp280 import BMP280
 from smbus import SMBus
 
 # INA219
-from sensors.ina219 import INA219
-from sensors.ina219 import DeviceRangeError
+from ina219 import INA219
+from ina219 import DeviceRangeError
 
 # NEOM8N
 import pigpio
