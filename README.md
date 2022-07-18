@@ -20,7 +20,7 @@ To clone the latest version:
 
 First, you must have all the prerequisite libraries:
 
-	pip install requirements.txt
+	pip install -r requirements.txt
 
 Then, run the following script to the container computer:
 
@@ -38,9 +38,7 @@ In case, you want to check programming functionality without sensors usage:
 
 ## Next steps
 
-1. Include a requirements.txt file with all the modules necessary for the operation of the scripts.
-
-2. Include the capabilities of communication with radio modules between container-payload and container-groun station.
+1. Include the capabilities of communication with radio modules between container-payload and container-groun station.
 
 ## License
 
