@@ -1,0 +1,14 @@
+numpy
+
+# BMP280
+smbus
+bmp280
+
+# INA219
+pi-ina219
+
+# NEOM8N
+pigpio
+
+# MPU9250
+imusensor
